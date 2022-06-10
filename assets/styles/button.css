@@ -1,0 +1,22 @@
+/*=============== BUTTONS ===============*/
+.button {
+    display: inline-block;
+    color: #fff;
+    padding: .8rem 1.75rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    background-color: var(--first-color);
+}
+
+.button--link {
+    color: var(--first-color);
+    border: 2px solid var(--first-color);
+    background-color: transparent;
+    transition: .4s;
+}
+
+.button--link:hover {
+    background-color: var(--first-color);
+    color: #fff;
+
+}
